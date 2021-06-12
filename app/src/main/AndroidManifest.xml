@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bnews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".config.ApplicationClass"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_fish"
+        android:label="창의야 놀자"
+        android:roundIcon="@mipmap/ic_fish_round"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity
+            android:name="com.example.bnews.src.splash.FishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.bnews.src.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Bnews">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

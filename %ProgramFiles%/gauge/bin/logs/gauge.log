@@ -1,0 +1,14 @@
+08-06-2021 13:54:16.625 [Gauge] [ERROR] Failed to find Gauge project directory. Missing manifest.json file.
+08-06-2021 13:54:16.626 [Gauge] [INFO] Usage:
+  gauge format [flags] [args]
+
+Examples:
+  gauge format specs/
+
+Flags:
+  -h, --help   Help for format
+
+Global Flags:
+  -d, --dir string         Set the working directory for the current command, accepts a path relative to current directory (default ".")
+  -l, --log-level string   Set level of logging to debug, info, warning, error or critical (default "info")
+  -m, --machine-readable   Prints output in JSON format

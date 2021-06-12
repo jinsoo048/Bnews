@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_event">
+
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.bnews.src.main.ui.culture.EventFragment"
+        android:label="창의야 체험하러가자!"
+        tools:layout="@layout/fragment_event"/>
+
+    <fragment
+        android:id="@+id/nav_tour"
+        android:name="com.example.bnews.src.main.ui.tour.TourFragment"
+        android:label="창의야 여행떠나자~"
+        tools:layout="@layout/fragment_tour" />
+
+    <fragment
+        android:id="@+id/nav_walk"
+        android:name="com.example.bnews.src.main.ui.walk.WalkFragment"
+        android:label="창의야 걸어보자^^"
+        tools:layout="@layout/fragment_walk" />
+</navigation>

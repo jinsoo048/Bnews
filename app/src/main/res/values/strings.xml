@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bnews</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="event">창의야 체험하러가자!</string>
+    <string name="tour">창의야 여행떠나자~</string>
+    <string name="walk">창의야 걷자^^</string>
+    <string name="title_event">체험학습</string>
+    <string name="title_tour">여행탐험</string>
+    <string name="title_walk">서울걷기</string>
+    <string name="page_title">창의야 놀자</string>
+    <string name="favorite" />
+    <string name="search" />
+    <string name="more" />
+    <string name="content_description_favorite" />
+    <string name="content_description_search" />
+    <string name="content_description_more" />
+</resources>

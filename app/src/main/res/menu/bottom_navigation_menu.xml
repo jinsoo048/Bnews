@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_event"
+        android:icon="@drawable/ic_event"
+        android:title="@string/title_event" />
+
+    <item
+        android:id="@+id/nav_tour"
+        android:icon="@drawable/ic_tour"
+        android:title="@string/title_tour" />
+
+    <item
+        android:id="@+id/nav_walk"
+        android:icon="@drawable/ic_walk"
+        android:title="@string/title_walk" />
+</menu>
