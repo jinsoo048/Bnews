@@ -76,7 +76,8 @@ class TourService(val view: TourFragmentView) {
 
         //var mUrl: String =
         //    "http://api.visitkorea.or.kr/openapi/service/rest/GoCamping/basedList?serviceKey=oxkeiOH8uK8oW7g0PbEl5%2F1XxEPIdlvQtZnFkmMONh8qI3VCVBLjtyn0Q9LCS5ICwiC0oE9SmI7pEaH%2F2IzfDg%3D%3D&pageNo=1&numOfRows=10&MobileOS=ETC&MobileApp=AppTest&_type=json"
-        var mUrl: String = "https://b25d56bd-0ba3-4162-8b2c-82749ee9d3e2.mock.pstmn.io"
+        var mUrl: String = "http://localhost:8080/camp"
+            // "https://ecddb066-512d-466c-a84a-a082975e409e.mock.pstmn.io/get"
             //"http://api.visitkorea.or.kr/openapi/service/rest/GoCamping/basedList?serviceKey=oxkeiOH8uK8oW7g0PbEl5%2F1XxEPIdlvQtZnFkmMONh8qI3VCVBLjtyn0Q9LCS5ICwiC0oE9SmI7pEaH%2F2IzfDg%3D%3D&MobileOS=ETC&MobileApp=AppTest&_type=json"
 
 
